@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1">
+        <form action="/server">
+            <label for="01">Name :</label>
+            <input type="text" placeholder="Enter your name" id="01" name="name">
+
+            <div>
+                <label for="02">Sex :</label>
+
+                <input type="radio" id="02" name="sex" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="02" name="sex" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="02" name="sex" value="others">
+                <label for="others">Others</label>
+            </div>
+            <div>
+                <label for="03">Country :</label>
+                <select name="country" placeholder="selact your countru" id="03" name="country">
+                    <option value="ban">BANGLADESH</option>
+                    <option value="ind">INDIA</option>
+                    <option value="Usa">USA</option>
+                    <option value="can">CANADA</option>
+                    <option value="rus">RUSSIA</option>
+                    <option value="aus">AUSTRALIA</option>
+                </select>
+            </div>
+            <div>
+                <label for="04">Message :</label><br />
+                <textarea name="message" id="04" cols="30" rows="4">
+               </textarea> <br />
+            </div>
+            <div>
+                <input type="checkbox" id="05" name="newsletter" />
+                <label for="05">Subscribes?</label>
+            </div>
+            <button>Submit</button>
+        </form>
+    </table>
+</body>
+
+</html>
